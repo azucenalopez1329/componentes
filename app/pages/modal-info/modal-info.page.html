@@ -1,0 +1,25 @@
+<ion-header no-border>
+  <ion-toolbar>
+    <ion-title text-capitalize> {{ nombre }} -- {{ pais }} </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding> 
+
+  <ion-button (click)="salirSinArgumentos()"
+              color="primary" expand="full">
+    Salir sin argumentos
+  </ion-button>
+
+  <ion-button (click)="salirConArgumentos()"
+              color="secondary" expand="full">
+    Salir con argumentos
+  </ion-button>
+
+</ion-content>
+
+<ion-footer>
+  <ion-toolbar color="google">
+    <ion-title>Blanca Azucena Cadena Lopez</ion-title>
+  </ion-toolbar>
+</ion-footer>
